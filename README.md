@@ -10,6 +10,12 @@ Although it does load the `worker.js` in the browser (compiled worker file) but 
 
 I posted a question here: https://stackoverflow.com/questions/45248078/creating-web-worker-from-rust-with-emscripten-target
 
+*I took some parts of the code from different repos on Github and Gitlab, but the other repos were MIT-licensed as well.*
+
+## Build
+
+`cargo build --target=wasm32-unknown-emscripten --verbose`
+
 ## License
 
 MIT
